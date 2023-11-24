@@ -1,4 +1,6 @@
 
+# DICCIONARIO CON ARBOL BINARIO KENIA ESCAMILLA SM42
+
 # raiz
 class Nodo:
     def __init__(self, palabra, significado):
@@ -64,7 +66,7 @@ if __name__ == "__main__":
 
 
 
-# esto permitira visualizar al usuario el programa:
+# esto permitira visualizar al usuario el programa: (ejecutar : python arbolbin.py )
     while True:
         palabra = input("Ingrese la palabra  para buscar su significado (o 'salir' para terminar): ").lower()
         if palabra == 'salir':
